@@ -1,0 +1,58 @@
+body {
+  max-width: 901px;
+  margin: 0% auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-left {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.header-left2 h2,
+.header-left2 h6 {
+  margin: 0;
+}
+
+.space {
+  min-width: 10px;
+}
+
+.line {
+  min-width: 100%;
+  min-height: 14px;
+  background-image: url("img/lab-10a-assets-main/hr-img.png");
+  background-repeat: repeat;
+}
+
+.list {
+  background-image: url("img/lab-10a-assets-main/list-bg.png");
+  display: flex;
+  justify-content: space-around;
+  background-repeat: no-repeat;
+}
+
+#share {
+  color: white;
+  background-color: coral;
+}
+
+.headerno2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  margin-bottom: 0;
+}
+
+.headerno2 h6 {
+  margin-top: 0;
+}
